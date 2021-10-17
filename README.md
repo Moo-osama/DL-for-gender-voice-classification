@@ -4,8 +4,8 @@ Numerous voice-recognition applications depend on the paralinguistic information
 
 ## Proposed solution
 
-<p align="center" width="30%">
-<img src="solution.png">
+<p align="center">
+<img src="solution.png" width=50% height=50%>
 </p>
   
 We feed all audio wave files to a feature extractor that produces 22 features for each audio file. This feature extractor applies Fourier transform to the audio signal to extract multiple audio characteristics that include the mean frequency, standard deviation, and median. Next, we apply principal component analysis to those 22 features in order to extract only 8 features (22 features are too much for training). Finally, we train the neural network on those 8 features and utilize it to predict voice gender. An overview of our solution architecture is shown in the picture above.
