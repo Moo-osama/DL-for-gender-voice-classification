@@ -46,11 +46,11 @@ Where yi is the ground truth voice label and p(yi) is the network prediction. Fi
 
 The graph below shows the training-validation loss achieved after 60 epochs of training. The training and validation losses saturate after 60 epochs at 0.0214 and 0.0262 respectively.
 
-![Image](r1.png = 250x)
+<img src="r1.png" width=50% height=50%>
 
 The graph below shows the training-validation accuracy achieved after 60 epochs of training. The training and validation accuracies saturate after 60 epochs at 99.43% and 99.05% respectively.
 
-![Image](r2.png = 250x)
+<img src="r2.png" width=50% height=50%>
 
 We also test the model on 317 unbiased, never-seen-before voice data records that consists of male-female 50-50. The model achieves 98.42% test accuracy. Furthermore, we test this model on a self-made voice record on 1 of our own voices. The model produces correct result (male) as can be seen in the testing code.
 
