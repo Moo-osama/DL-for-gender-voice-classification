@@ -48,7 +48,7 @@ Where yi is the ground truth voice label and p(yi) is the network prediction. Fi
 
 ## Results
 
-The graph below shows the training-validation loss achieved after 60 epochs of training. The training and validation losses saturate after 60 epochs at 0.0214 and 0.0262 respectively.
+The graph below shows the training-validation loss achieved after 60 epochs of training. The training and validation losses saturate at 0.0214 and 0.0262 respectively.
 
 <p align="center">
 <img src="r1.png" width=50% height=50%>
